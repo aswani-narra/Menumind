@@ -1,0 +1,25 @@
+{
+    "name": "menumind",
+    "version": "1.0.0",
+    "description": "MenuMind - The Tinder for Food",
+    "main": "server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node backend/server.js",
+        "dev": "nodemon --watch backend --ext js,json backend/server.js"
+    },
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+        "@google/generative-ai": "^0.24.1",
+        "cors": "^2.8.5",
+        "dotenv": "^16.4.5",
+        "express": "^4.19.1",
+        "express-async-handler": "^1.2.0",
+        "images-scraper": "^6.4.6",
+        "mongodb": "^6.5.0",
+        "mongoose": "^8.2.3",
+        "multer": "^1.4.5-lts.1",
+        "nodemon": "^3.1.0"
+    }
+}
